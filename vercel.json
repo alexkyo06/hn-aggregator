@@ -24,16 +24,6 @@
       "dest": "/public/$1"
     }
   ],
-  "functions": {
-    "api/cron.js": {
-      "memory": 1024,
-      "maxDuration": 60
-    },
-    "api/aggregate.js": {
-      "memory": 1024,
-      "maxDuration": 30
-    }
-  },
   "crons": [
     {
       "path": "/api/cron",
